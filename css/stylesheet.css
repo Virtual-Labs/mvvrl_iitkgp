@@ -1,0 +1,177 @@
+body {
+   width:100%;
+   font-family: Tahoma, Geneva, sans-serif;
+   background-image:url(../images/grids.gif);
+}
+/*****************************************Header page css start*****************************************************/
+.header_wrapper {
+   clear:both;
+   margin:0 auto 0 auto;
+   width:100%;
+   background-image:url(../images/header_bg.gif);
+   background-repeat: repeat-x;
+   margin-bottom:20px;
+}
+
+.header_wrapper .header_div {
+   margin:0 auto;
+   width:1000px;
+   height:90px;
+}
+
+.header_wrapper .header_div .header_logo {
+   float:left;
+   width:81px;
+   height:87px;
+}
+.header_wrapper .header_div .header_title {
+   float:right;
+   width:900px;
+   height:87px;
+}
+.header_title #header_lab, .header_title #header_dept, .header_title #header_inst {
+   font-family: Tahoma, Geneva, sans-serif;
+   font-weight:normal;
+   line-height:1.4em;
+}
+.header_title #header_lab {
+   font-size:25px;
+}
+.header_title #header_dept {
+   font-size:20px;
+}
+.header_title #header_inst {
+   font-size:15px;
+}
+
+.header_wrapper .header_menu {
+   clear:both;
+   width:100%;
+   min-width:1000px;
+   height:30px;
+   background-image:url(../images/menu_bg.jpg);
+}
+.header_menu .header_menu_div {
+   margin:0 auto;
+   width:1000px;
+   height:30px;
+   background-image:url(../images/menu_bg.jpg);
+}
+.header_menu_div .menu_td a {
+   text-decoration:none;
+   color:#6F6F5E;
+   font-family: Tahoma, Geneva, sans-serif;
+   font-weight:bold;
+   font-size:13px;
+   text-align:center;
+}
+.header_menu_div .menu_sep {
+   border-right:1px solid black;
+   width:1px;
+}
+.header_menu_div .menu_td {
+   background-image:url(../images/menu_bg.jpg);
+   width:20%;
+}
+/*****************************************Header page css end*****************************************************/
+
+
+/*****************************************Index page css start*****************************************************/
+
+.wrapper_body {
+   margin:0 auto 0 auto;
+   width:1000px;
+}
+.wrapper_body .philosophy {
+   clear:both;
+   margin-top:20px;
+}
+.philosophy .home_banner {
+   float:left;
+}
+.philosophy .home_philo {
+    float:right;
+	width:260px;
+	color: #666;
+	font-size: 14px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	letter-spacing: 0.04em;
+	line-height: 25px;
+	text-align: justify;
+}
+.sponsor {
+   background-image:url(../images/ashoka.jpg);
+   background-position:center;
+   background-repeat:no-repeat;
+}
+.philos_logo {
+   background-image:url(../images/glob.jpg);
+   background-position:center;
+   background-repeat:no-repeat;
+}
+.wrapper_body .contact_div {
+   clear:both;
+   margin-top:30px;
+   width:100%;
+}
+.contact_div .contact1 {
+   float:left;
+   margin-right:150px;
+   color: #666;
+   font-size: 13px;
+   font-weight: normal;
+   letter-spacing: 0.04em;
+   line-height: 20px;
+   text-align: justify;
+}
+/*****************************************Index page css end*****************************************************/
+
+/*****************************************Footer page css start*****************************************************/
+.wrapper_footer {
+   clear:both;
+   width:100%;
+   height:40px;
+   margin-top:20px;
+   background-color:#FF9900;
+}
+.footer {
+   margin:0 auto;
+   width:1000px;
+   height:35px;
+   text-align:center;
+   font-size: 11px;
+   font-weight: normal;
+   letter-spacing: 0.04em;
+   line-height: 20px;
+   text-align: right;
+   padding-top:10px;
+}
+/*****************************************Footer page css end*****************************************************/
+
+/*****************************************Experiment page css start*****************************************************/
+.expdiv {
+   min-height:700px;
+}
+.expdiv a {
+   text-decoration:none;
+   color:#FF6600;
+}
+.expdiv a:hover {
+   color:#0000FF;
+}
+
+
+.exp_pages {
+   width:100%;
+}
+.exp_pages .left_menu {
+   float:left;
+   width:20%;
+}
+.exp_pages .content_area {
+   float:right;
+   min-height:700px;
+   width:79%;
+   margin-bottom:20px;
+}
