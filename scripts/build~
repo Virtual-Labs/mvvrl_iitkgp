@@ -1,4 +1,5 @@
 #!/bin/bash
+# Build script for Computer Programming Lab 
 
 # Build Script runs the makefile and copies the build folder to localhost. The script is invoked by initialize script.  
 
